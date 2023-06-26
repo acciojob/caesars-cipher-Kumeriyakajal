@@ -17,7 +17,7 @@ const lookup = {
   N: "A",
   O: "B",
   P: "C",
-  Q: "D",
+  Q: "D",2
   R: "E",
   S: "F",
   T: "G",
@@ -34,6 +34,14 @@ const lookup = {
 function rot13(encodedStr) {
   let decodedArr = []; // Your Result goes here
   // Only change code below this line
+	for(let i=0;i<str.length;i++){
+		if(lookup[str[i]] == undefined){
+			decodedArr.push(str[i])
+		}
+		else{
+			decodedArr.push(lookup[str[i]])
+		}
+	}
 
   return; //return decodedArr
 }
