@@ -17,7 +17,7 @@ const lookup = {
   N: "A",
   O: "B",
   P: "C",
-  Q: "D",2
+  Q: "D",
   R: "E",
   S: "F",
   T: "G",
@@ -28,7 +28,7 @@ const lookup = {
   Y: "L",
   Z: "M",
   "?": "?",
-  ",": ",",
+  ",": ","
 };
 
 function rot13(encodedStr) {
